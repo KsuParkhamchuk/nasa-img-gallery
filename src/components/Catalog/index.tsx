@@ -50,9 +50,6 @@ class Catalog extends React.Component<CatalogModel.Props, CatalogModel.State> {
     return (
       <div className="catalog">
         <div className="catalog__header">
-          <div className="catalog__header--img" style={{backgroundImage: `url('logo192.png')`,}}>
-            <img src="img/nasa.png" alt="" />
-          </div>
           <div className="catalog__header--text">Nasa Image Gallery</div>
         </div>
         <div className="catalog__gallery">

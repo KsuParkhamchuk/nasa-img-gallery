@@ -8,7 +8,7 @@ class Header extends React.Component<any> {
       <header className="header">
         <img src="img/nasa.png" className="nasaLogo" alt=""/>
         <nav className="header__navigation">
-          <Link to="/" className="header__navigation--link">
+          <Link to="/nasa-img-gallery" className="header__navigation--link">
             CURRENT IMAGE
           </Link>
           <Link to="/catalog" className="header__navigation--link">

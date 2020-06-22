@@ -33,6 +33,10 @@
     margin-top: 30px;
 }
 
+.dateVideo__wrapper iframe {
+    border: 0;
+}
+
 .calendar{
     margin-top: 30px;
     padding: 10px 20px;

@@ -8,12 +8,14 @@
 .catalog__header{
     display: flex;
     padding-top: 30px;
+    justify-content: center;
 }
 
 .catalog__header--text{
     font-size: 30px;
     padding-left: 40px;
     color: #2b1682;
+    margin-bottom: 30px;
 }
 
 .catalog__gallery{

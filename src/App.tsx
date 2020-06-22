@@ -22,8 +22,8 @@ class App extends React.Component<any, any> {
     <div>
        <Header />
           <Switch>
-            <Route exact path='/nasa-img-gallery' component={CurrentImg} />
-            <Route exact path='/catalog' component={Catalog} />
+            <Route  path='/nasa-img-gallery' component={CurrentImg} />
+            <Route  path='/catalog' component={Catalog} />
           </Switch>  
     </div>
     )
