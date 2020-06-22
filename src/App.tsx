@@ -23,7 +23,7 @@ class App extends React.Component<any, any> {
        <Header />
           <Switch>
             <Route exact path='/nasa-img-gallery' component={CurrentImg} />
-            <Route exact path='/nasa-img-gallery/catalog' component={Catalog} />
+            <Route exact path='/catalog' component={Catalog} />
           </Switch>  
     </div>
     )
