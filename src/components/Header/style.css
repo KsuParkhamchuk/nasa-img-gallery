@@ -4,14 +4,16 @@ header {
     align-items: center;
 }
 
-.nasaLogo {
+.nasaLogo img{
     width: 60px;
     height: 60px;
-    margin-left: 20px;
+    margin: 0 20px;
 }
 
 .header__navigation {
-    padding: 25px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
 }
 
 .header__navigation--link {

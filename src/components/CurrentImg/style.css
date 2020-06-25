@@ -1,16 +1,18 @@
+.holder{
+    display: flex;
+}
+
 .dateImg{
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 70%;
-    margin: 0 auto;
-    background-color: #F2F1FC;
-    
+    background-color: #F2F1FC; 
 }
 
 .dateImg__wrapper{
     margin-top: 30px;
-    height: 600px;
+    height: 550px;
     width: 600px;
     background-size: contain;
     background-position: 50%;
@@ -43,4 +45,19 @@
     background-color: transparent;
     border: 1px solid #bbbbbb;
     border-radius: 7px;
+}
+
+.dateImg__description--text {
+    line-height: 1.7;
+}
+
+@media(max-width: 768px){
+    .holder{
+        display: block;
+    }
+    
+    .dateImg{
+        width: 100%;
+    }
+    
 }

@@ -1,13 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './style.css'
+import nasaLogo from "../../img/nasa.png";
 
 class Header extends React.Component<any> {
   render() {
     return (
       <header className="header">
-        <img src="img/nasa.png" className="nasaLogo" alt=""/>
         <nav className="header__navigation">
+          <Link to='/' className="nasaLogo">
+            <img src={nasaLogo} alt=""/>
+          </Link>
           <Link to="/nasa-img-gallery" className="header__navigation--link">
             CURRENT IMAGE
           </Link>

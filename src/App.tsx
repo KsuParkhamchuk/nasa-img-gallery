@@ -4,6 +4,7 @@ import './App.css';
 import Header from './components/Header';
 import CurrentImg from './components/CurrentImg'
 import Catalog from './components/Catalog'
+import WelcomePage from './components/WelcomePage'
 import { Route, Switch} from 'react-router-dom'
 
 
@@ -20,8 +21,9 @@ class App extends React.Component<any, any> {
   render() {
     return (
     <div>
-       <Header />
+      <Header />
           <Switch>
+          <Route exact path='/' component={WelcomePage}/>
             <Route  path='/nasa-img-gallery' component={CurrentImg} />
             <Route  path='/catalog' component={Catalog} />
           </Switch>  
