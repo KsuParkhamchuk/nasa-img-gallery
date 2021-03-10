@@ -1,0 +1,45 @@
+#formRegistration {
+    width: 50%;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 35px;
+    margin: 0 auto;
+    min-height: 60%;
+    background-color: #fff;
+    position: relative;
+}
+
+.registrationForm {
+    height: 100vh;
+    background-color: #DAD5C7;
+    padding: 50px;
+}
+
+.formRegistartion__label {
+    width: 200px;
+}
+
+.formRegistration__content {
+    width: 70%;
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.backToStartBtn {
+    position: absolute;
+    top: 5%;
+    left: 5%; 
+}
+
+.formRegistrationBtn {
+    border: 0;
+    width: 350px;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    background-color: brown;
+    color: #fff;
+}
+
+.formRegistartion__input {
+    width: 350px;
+}

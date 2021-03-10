@@ -1,0 +1,19 @@
+.auth__content {
+    background-color: white;
+    width: 1050px;
+    display: flex;
+    margin: auto;
+}
+
+.authentification {
+    height: 100vh;
+    display: flex;
+}
+
+.auth__content--img {
+    width: 60%;
+}
+
+.auth__content--img img {
+ max-width: 90%;
+}

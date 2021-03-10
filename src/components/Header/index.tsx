@@ -17,6 +17,12 @@ class Header extends React.Component<any> {
           <Link to="/catalog" className="header__navigation--link">
             CATALOG
           </Link>
+          <div className="header__navigation--auth">
+          <Link to="/auth" className="header__navigation--link signIn">
+            SIGN IN
+          </Link>
+          <span>Don't have an account?<br/><Link to="/registration" className="">Register here </Link></span>
+          </div>
         </nav>
       </header>
     );
